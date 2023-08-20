@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
-const inter = Montserrat({ weight: ['400'] })
+const inter = Montserrat({subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
